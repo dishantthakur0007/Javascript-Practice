@@ -1,4 +1,3 @@
-// Exercise 15-g: Check if a previous date is a Saturday or Sunday
 <!DOCTYPE html>
 <html>
   <head></head>
@@ -6,11 +5,11 @@
     <script type="module">
       import dayjs from 'https://unpkg.com/supersimpledev@8.5.0/dayjs/esm/index.js';
   
-      import isSatSun from './15-g.js';
+      import isWeekend from './15-g.js';
       
       let date = dayjs();
       const previousDate = date.subtract(1, 'day');
       console.log(previousDate.format('dddd, MMMM D'));
-      console.log(isSatSun(previousDate)); 
+      console.log(isWeekend(previousDate)); 
     </script>
   </body>
