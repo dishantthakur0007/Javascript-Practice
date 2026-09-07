@@ -1,0 +1,25 @@
+//get the previous date and check if it is a weekend
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <script type="module">
+      import dayjs from 'https://unpkg.com/supersimpledev@8.5.0/dayjs/esm/index.js';
+  
+      function isWeekend(date) {
+        const previousDate = date.subtract(1, 'day');
+        const day = previousDate.format('dddd');
+
+        return day === 'Saturday' || day === 'Sunday';
+      }
+
+      let date = dayjs();
+
+      const previousDate = date.subtract(1, 'day');
+
+      console.log(previousDate.format('D MMMM YYYY dddd'));
+      console.log(isWeekend(date));
+   
+    </script>
+  </body>
+</html
