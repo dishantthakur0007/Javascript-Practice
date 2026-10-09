@@ -1,3 +1,4 @@
-JAVASCRIPT PRACTICE 
+# 💛 JavaScript Practice 
 
-All things of javascript i am learning and practicing is in this 
+Welcome to my JavaScript practice repository! This is a collection of my code, exercises, and projects on JavaScript (ES6+), asynchronous programming, and DOM manipulation.
+
